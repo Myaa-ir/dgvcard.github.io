@@ -1,6 +1,6 @@
 ---
-name: "John Doe"
-title: "برنامه‌نویس و طراح سیستم"
+name: "صنایع کشاورزی ریحون"
+title: "ابزارآلات کشاورزی و صنعتی"
 phone: "09123456789"
 whatsapp: "989123456789"
 instagram: "johndoe"

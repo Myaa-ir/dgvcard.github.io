@@ -1,5 +1,4 @@
 {{ define "main" }}
-<link rel="stylesheet" href="/assets/css/bootstrap.rtl.min.css">
 
 <div class="container py-4" style="max-width: 420px;">
   <div class="card shadow-sm border-0">
@@ -46,14 +45,14 @@
       {{ with .Params.card_number }}
       <div class="mb-2">
         <strong>شماره کارت:</strong><br>
-        <span dir="ltr">{{ . }}</span>
+        <span class="card_number" dir="ltr">{{ . }}</span>
       </div>
       {{ end }}
 
       {{ with .Params.sheba }}
       <div>
         <strong>شماره شبا:</strong><br>
-        <span dir="ltr">{{ . }}</span>
+        <span class="card_number" dir="ltr">{{ . }}</span>
       </div>
       {{ end }}
 
@@ -71,9 +70,9 @@
 
     <!-- Download -->
     <div class="card-body border-top text-center">
-      <button class="btn btn-dark w-100" onclick="downloadCard()">
+      <a class="btn btn-dark w-100" href="/pictures/bitmap.png" download>
         دانلود کارت
-      </button>
+      </a>
     </div>
 
   </div>

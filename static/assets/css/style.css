@@ -1,0 +1,7 @@
+.card_number {
+    font-family: 'monospace';
+    direction: ltr;
+    text-align: center;
+    font-size: 1.2em;
+    display: block;
+}
